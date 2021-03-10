@@ -25,7 +25,7 @@ $headers.Add("X-Frame-Signature", $signature)
 
 # Create Request Variables
 $domain = "https://api-gateway-prod.frame.nutanix.com"
-$uri = $domain + "/v1/clusters/" + $cluster_id + "/resume_cluster"
+$uri = $domain + "/v1/clusters/" + $cluster_id + "/hibernate"
 $body = ""
 
 # Invoke REST API
